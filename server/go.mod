@@ -3,6 +3,7 @@ module my-elearning-platform
 go 1.21.1
 
 require (
+	github.com/Tapan176/eLearning-platform-with-pms-and-chat-feature v0.0.0-20230925121859-2f11c3dd783b // indirect
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/gorilla/websocket v1.5.0 // indirect
