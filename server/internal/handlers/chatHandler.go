@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/yourusername/my-elearning-platform/internal/models"
+	"github.com/yourusername/my-elearning-platform/internal/routes/internal/models"
 )
 
 // SendMessage sends a chat message

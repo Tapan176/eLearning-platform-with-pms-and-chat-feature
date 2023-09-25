@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Auth from './Auth/Auth';
-import Dashboard from './Dashboard/Dashboard';
-import eLearning from './eLearning/eLearning';
-import ProjectManagement from './ProjectManagement/ProjectManagement';
-import Chat from './Chat/Chat';
+import Auth from './components/Auth';
+import Dashboard from './components/Dashboard';
+import eLearning from './components/eLearning';
+import ProjectManagement from './components/ProjectManagement';
+import Chat from './components/Chat';
 
 function App() {
   return (

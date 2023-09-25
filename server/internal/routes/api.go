@@ -1,8 +1,9 @@
 package routes
 
 import (
+	"github.com/yourusername/my-elearning-platform/internal/routes/internal/handlers"
+
 	"github.com/gorilla/mux"
-	"github.com/yourusername/my-elearning-platform/internal/handlers"
 )
 
 // RegisterAPIRoutes registers API routes
