@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Tapan176/eLearning-platform-with-pms-and-chat-feature/my-elearning-platform/internal/routes"
 	"github.com/gorilla/mux"
+	"github.com/yourusername/my-elearning-platform/internal/routes"
 )
 
 func main() {
