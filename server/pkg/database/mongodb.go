@@ -14,7 +14,7 @@ var db *mongo.Database
 
 // InitMongoDB initializes the MongoDB connection
 func InitMongoDB() *mongo.Database {
-	clientOptions := options.Client().ApplyURI("mongodb://localhost:27017") // Replace with your MongoDB connection string
+	clientOptions := options.Client().ApplyURI("mongodb://127.0.0.1:27017") // Replace with your MongoDB connection string
 	client, err := mongo.NewClient(clientOptions)
 	if err != nil {
 		log.Fatal(err)

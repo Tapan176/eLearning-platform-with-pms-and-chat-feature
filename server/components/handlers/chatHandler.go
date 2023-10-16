@@ -2,9 +2,8 @@ package handlers
 
 import (
 	"encoding/json"
+	"my-elearning-platform/components/models"
 	"net/http"
-
-	"github.com/yourusername/my-elearning-platform/internal/routes/internal/models"
 )
 
 // SendMessage sends a chat message

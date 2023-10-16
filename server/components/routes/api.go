@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/yourusername/my-elearning-platform/internal/routes/internal/handlers"
+	"my-elearning-platform/components/handlers"
 
 	"github.com/gorilla/mux"
 )

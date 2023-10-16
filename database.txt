@@ -1,0 +1,11 @@
+User
+	- authentication
+Course
+	- course -> courseId, createdAt, modifiedAt, totalTimeOfCourse, title, description, owner, status, rating
+	- instructor -> instructorId, courseList, avdRatingOfCourse, avgRatingOfInstructor, name, email, password
+Project
+	- project -> projectId, owner, collabortorIds, title, description
+	- task -> taskId, projectId, assignedTo, status, title, description
+chat
+	- chat -> messageId, from, to, content, timeOfCreation, room
+	- group chat -> groupId, room, from, timeOfCreation, content

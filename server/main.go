@@ -2,10 +2,10 @@ package main
 
 import (
 	"log"
+	"my-elearning-platform/components/routes"
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/yourusername/my-elearning-platform/internal/routes"
 )
 
 func main() {
